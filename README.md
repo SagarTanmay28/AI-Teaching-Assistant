@@ -182,23 +182,6 @@ http://127.0.0.1:8000/docs
 
 ---
 
-## 💡 Example Use Case
-
-**Scenario:** A student uploads lecture notes for a course and asks a question about a concept discussed in the material.
-
-**User question:**
-> Explain the key concepts discussed in Lecture 3 and how they relate to Lecture 2.
-
-**CourseGPT workflow:**
-- Searches the indexed course material using BM25 and semantic similarity.
-- Reranks retrieved passages to identify the most relevant evidence.
-- Uses conversation history when resolving follow-up questions.
-- Generates an answer grounded in the retrieved course content.
-- Provides source citations so the student can locate and verify the relevant material.
-
-The final response depends on the documents indexed and the capabilities of the configured LLM.
-
----
 
 ## 🧠 Technical Highlights
 
@@ -258,4 +241,3 @@ The goal is to help students interact with their own learning materials through 
 **Tanmay S Sagar**
 
 
-*Built to explore practical applications of RAG, information retrieval, and LLM-powered educational tools.*
